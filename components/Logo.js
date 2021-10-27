@@ -24,7 +24,7 @@ const Logo = () => {
           {/* <Image src={footPrintImg}/> */}
           <Text 
             color={useColorModeValue("grey.800","whiteAlpha.900" )}
-            fontFamily="M PLUS Roounded 1c"
+            fontFamily="'M PLUS Roounded 1c'"
             fontWeight="bold"
             ml={3}>
               Aobakwe Kodisang
