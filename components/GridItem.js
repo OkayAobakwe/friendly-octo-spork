@@ -40,7 +40,7 @@ export const WorkGridItem = ({ children, id, title, name }) => {
    )
 }
 
-export const GridItemStyle = () => {
+export const GridItemStyle = () => (
   <Global 
     styles={
       `.grid-item-thumbnail {
@@ -48,4 +48,4 @@ export const GridItemStyle = () => {
       }`
     }
   />
-}
+)
